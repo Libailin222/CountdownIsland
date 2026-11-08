@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+
+# 构建产物 Build artifacts
+CountdownIsland.app/
+.build/
+build/
+*.dSYM
+
+# Xcode
+xcuserdata/
+DerivedData/
