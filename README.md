@@ -8,7 +8,7 @@
 
 ![preview](docs/preview.png)
 
-*待开始 · 计时中 · 展开控制 · 时间到　Idle · Running · Expanded · Done*
+*待开始 · 计时中 · 展开控制 · 时间到　—　Idle · Running · Expanded · Done*
 
 **macOS 13+ · 单文件 Swift 552 行 · 零第三方依赖 · 无需申请任何权限**
 
@@ -20,7 +20,7 @@
 
 为什么叫「半岛」？因为它只有上边缘和屏幕贴齐，下面是手绘的弧线——像一块从刘海垂下来的陆地。系统原生的灵动岛只给 Apple 自己用，这个是照着它的形，自己画了一块。
 
-**English**: CountdownIsland is a minimal macOS utility. No Dock clutter, no popups, no main window — just a black "island" hugging your notch. Collapsed, it quietly counts down `mm:ss`; tap it and it expands to 1 / 5 / 10 / 25 / 45 / 60-minute presets with pause, stop and reset one click away. When time is up, a chime plays and both the island and the bell shake on the same waveform until you tap to acknowledge.
+**English**: CountdownIsland is a minimal macOS utility. No popups, no main window, no background daemon — just a black "island" hugging your notch. Collapsed, it quietly counts down `mm:ss`; tap it and it expands to 1 / 5 / 10 / 25 / 45 / 60-minute presets with pause, stop and reset one click away. When time is up, a chime plays and both the island and the bell shake on the same waveform until you tap to acknowledge.
 
 Built in a single Swift file (552 lines) with AppKit + SwiftUI. No third-party dependencies, no permissions, no background services.
 
